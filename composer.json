@@ -1,0 +1,14 @@
+{
+  "name": "drupal/h5p_x_frame_options",
+  "type": "drupal-module",
+  "description": "X-Frame-Options override for H5P embed endpoint",
+  "keywords": ["Drupal"],
+  "license": "GPL-2.0+",
+  "homepage": "https://github.com/sisuloome/h5p_x_frame_options",
+  "minimum-stability": "dev",
+  "support": {
+    "issues": "https://github.com/sisuloome/Sisuloome/issues",
+    "source": "https://github.com/sisuloome/h5p_x_frame_options.git"
+  },
+  "require": { }
+}

@@ -1,0 +1,6 @@
+services:
+  h5p.x_frame_options.subscriber:
+    class: Drupal\h5p_x_frame_options\EventSubscriber\H5PXFrameOptionsSubscriber
+    arguments: []
+    tags:
+      - { name: event_subscriber }
