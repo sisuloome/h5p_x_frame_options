@@ -4,4 +4,4 @@ description: 'X-Frame-Options override for H5P embed endpoint'
 core: 8.x
 package: 'H5P'
 dependencies:
-  - h5p
+  - h5p:h5p
