@@ -2,8 +2,8 @@
 
 namespace Drupal\h5p_x_frame_options\EventSubscriber;
 
+use Drupal\Component\EventDispatcher\Event;
 use Symfony\Component\EventDispatcher\EventSubscriberInterface;
-use Symfony\Contracts\EventDispatcher\Event;
 use Symfony\Component\HttpKernel\KernelEvents;
 
 /**
