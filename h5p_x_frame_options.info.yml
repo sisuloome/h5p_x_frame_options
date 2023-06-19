@@ -1,8 +1,7 @@
 name: 'H5P X-Frame-Options'
 type: module
 description: 'X-Frame-Options override for H5P embed endpoint'
-core: 8.x
-core_version_requirement: ^8 || ^9
+core_version_requirement: ^9 || ^10
 package: 'H5P'
 dependencies:
   - h5p:h5p
