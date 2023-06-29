@@ -2,7 +2,7 @@
 
 namespace Drupal\h5p_x_frame_options\EventSubscriber;
 
-use Drupal\Component\EventDispatcher\Event;
+use Symfony\Component\HttpKernel\Event\ResponseEvent;
 use Symfony\Component\EventDispatcher\EventSubscriberInterface;
 use Symfony\Component\HttpKernel\KernelEvents;
 
@@ -32,9 +32,9 @@ class H5PXFrameOptionsSubscriber implements EventSubscriberInterface {
    * This method is called whenever the RESPONSE event is
    * dispatched.
    *
-   * @param Event $event
+   * @param ResponseEvent $event
    */
-  public function onKernelResponse(Event $event) {
+  public function onKernelResponse(ResponseEvent $event) {
     $request = $event->getRequest();
     $path = $request->getPathInfo();
 
