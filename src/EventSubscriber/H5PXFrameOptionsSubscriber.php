@@ -42,7 +42,7 @@ class H5PXFrameOptionsSubscriber implements EventSubscriberInterface {
       $response = $event->getResponse();
 
       if ($response->headers->has('X-Frame-Options')) {
-        $response->headers->set('X-Frame-Options', 'ALLOW-FROM *');
+        $response->headers->remove('X-Frame-Options');
       }
     }
   }
